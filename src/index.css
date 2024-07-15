@@ -1,0 +1,352 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Isi {
+  position: absolute;
+  width: 960px;
+  height: 804px;
+  left: 250px;
+  top: 52px;
+  border-radius: 0px 402px 0px 0px;
+}
+
+.polos{
+  position: absolute;
+  width: 960px;
+  height: 761px;
+  top: 40px;
+}
+
+.title {
+  /* GempaEdukasi : Website Edukasi Bencana Gempa */
+  position: absolute;
+  width: 100%;
+  height: 105px;
+  left: 16px;
+  top: 160px;
+  font-family: 'Port Lligat Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 113%;
+  /* or 99px */
+  letter-spacing: -0.02em;
+  color: #030605;
+}
+
+.subtitle {
+  /* Label */
+  position: absolute;
+  left: 35px;
+  top: 255px;
+  font-family: 'Noticia Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 34px;
+  /* identical to box height, or 106% */
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #030605;
+}
+
+.line {
+  /* Group 1 */
+  position: absolute;
+  width: 1440px;
+  height: 1418px;
+  left: 0px;
+  top: 0px;
+}
+
+.img2 {
+  /* right */
+  position: absolute;
+  width: 806px;
+  height: 688px;
+  left: 570px;
+  top: 42px;
+}
+
+.img5{
+  /* Frame 18 */
+
+position: absolute;
+width: 132px;
+height: 200px;
+left: 220px;
+top: 1058px;
+}
+
+.quote{
+  /* “There is an old saying: Earthquakes don't kill people—buildings do!” */
+
+position: absolute;
+width: 505px;
+height: 138px;
+left: 1100px;
+top: 1226px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 46px;
+/* or 110% */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #030605;
+
+
+}
+
+.img6{
+  /* unsplash:wsvCC6UyKjs */
+
+position: absolute;
+width: 132px;
+height: 206px;
+left: 450px;
+top: 1068px;
+
+border-radius: 200px;
+
+}
+
+.ambang1 {
+  /* side image 1 */
+  position: absolute;
+  width: 270px;
+  height: 478px;
+  left: 400px;
+  top: 617px;
+}
+
+.ambang2 {
+  /* Side image 2 */
+  position: absolute;
+  width: 270px;
+  height: 418px;
+  left: 890px;
+  top: 853px;
+
+}
+
+.btn-primary{
+  /* Button */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 200px;
+  height: 79px;
+  left: 180px;
+  top: 350px;
+  background: #28887A;
+
+  /* Buy now */
+
+width: 193px;
+height: 65px;
+
+font-family: 'Anek Odia';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 80px;
+/* or 333% */
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+/* Bright */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.logo-header{
+  /* GEmaSI-removebg-preview 1 */
+
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  left: 230px;
+  top: 0px;
+
+}
+
+.logo-footer{
+  object-fit: cover;
+  position: absolute;
+  top: -100px;
+  height: 371px;
+  width: 413px;
+  /* GEmaSI-removebg-preview 2 */
+  left: -100px;
+}
+
+.navbar-nav{
+  /* Navigation Header */
+  position: absolute;
+  width: 1440px;
+  height: 151px;
+  left: 350px;
+  top: 25px;
+}
+
+.isi2a{
+/* Frame 8 */
+
+position: absolute;
+width: 234px;
+height: 188px;
+left: 1190px;
+top: 888px;
+
+}
+
+.isi2b{
+  /* Frame 9 */
+
+position: absolute;
+height: 232px;
+left: 1390px;
+top: 888px;
+
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  height: 559px;
+  position: relative;
+  left: 250px;
+  top: 1440px;
+  width: 1440px;
+}
+
+.footer .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 105px;
+  left: 602px;
+  position: absolute;
+  top: 100px;
+}
+
+.footer .div {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.footer .text-wrapper {
+  color: var(--primary-dark-2);
+  font-family: "Anek Odia-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.36px;
+  line-height: 26.5px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .text-wrapper-2 {
+  color: #5c5e5e;
+  font-family: "Anek Odia-Medium", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 40px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .line {
+  height: 1px;
+  left: 17px;
+  object-fit: cover;
+  position: absolute;
+  top: 446px;
+  width: 1293px;
+}
+
+.footer .gemasi-removebg-wrapper {
+  height: 200px;
+  left: 196px;
+  position: absolute;
+  top: 166px;
+  width: 267px;
+}
+
+.footer .gemasi-removebg {
+  height: 371px;
+  left: -119px;
+  object-fit: cover;
+  position: absolute;
+  top: -111px;
+  width: 413px;
+}
+
+.footer .p {
+  color: #5c5e5e;
+  font-family: "Anek Odia-Medium", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 130px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 490px;
+}
+
+.footer .terms-conditions {
+  color: #5c5e5e;
+  font-family: "Anek Odia-Medium", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 1187px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 490px;
+}
+
+.footer .text-wrapper-3 {
+  color: #5c5e5e;
+  font-family: "Anek Odia-Medium", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 1042px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 490px;
+}
+
